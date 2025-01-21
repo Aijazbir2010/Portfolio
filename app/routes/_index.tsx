@@ -14,6 +14,7 @@ export const meta: MetaFunction = () => {
   return [
     { title: "Aijazbir | Portfolio" },
     { name: "description", content: "I'm Aijazbir Brar, a 14-year-old Full Stack Developer specializing in MERN Stack, Next.js, and Remix. Explore my portfolio to see modern, stylish, and eye-catching projects that showcase my expertise in crafting innovative web solutions. Let's collaborate to bring your ideas to life!" },
+    { name: "keywords", content: "Aijazbir Brar, portfolio, web developer, projects, skills" },
   ];
 };
 
