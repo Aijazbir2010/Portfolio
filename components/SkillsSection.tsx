@@ -11,6 +11,7 @@ const SkillsSection = () => {
     {title: 'The Power of Your Subconscious Mind', author: 'Joseph Murphy'},
     {title: 'The Lean Startup', author: 'Eric Ries'},
     {title: 'The Personal MBA', author: 'Josh Kaufman'},
+    {title: '$100M Offers', author: 'Alex Hormozi'},
   ]  
 
   const [scrollPosition, setScrollPosition] = useState(0)
