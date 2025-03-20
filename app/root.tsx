@@ -65,7 +65,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Meta />
         <Links />
       </head>
-      <body className="bg-[#101010] min-h-screen no-scrollbar">
+      <body className="bg-[#101010] min-h-screen no-scrollbar overflow-x-hidden">
         {children}
         <ToastContainer autoClose={3000} theme="colored" draggable/>
         <ScrollRestoration />
