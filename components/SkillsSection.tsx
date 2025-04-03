@@ -34,7 +34,7 @@ const SkillsSection = () => {
         if (window.innerWidth >= 768) {
             setTranslateMultiplier(2.5)
         } else {
-            setTranslateMultiplier(4.5)
+            setTranslateMultiplier(5.5)
         }
     }
 
