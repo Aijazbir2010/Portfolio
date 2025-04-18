@@ -32,9 +32,9 @@ const SkillsSection = () => {
   useEffect(() => {
     const updateTranslateMultiplier = () => {
         if (window.innerWidth >= 768) {
-            setTranslateMultiplier(3.5)
+            setTranslateMultiplier(3)
         } else {
-            setTranslateMultiplier(5.5)
+            setTranslateMultiplier(5)
         }
     }
 
