@@ -16,6 +16,7 @@ const SkillsSection = () => {
     {title: 'Atomic Habits', author: 'James Clear'},
     {title: 'Deep Work', author: 'Cal Newport'},
     {title: 'The 5AM Club', author: 'Robin Sharma'},
+    {title: 'The 12 Week Year', author: 'Brian P. Moran and Michael Lennington'},
   ]  
 
   const [scrollPosition, setScrollPosition] = useState(0)
