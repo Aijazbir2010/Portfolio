@@ -20,6 +20,7 @@ const SkillsSection = () => {
     {title: 'The $100 Startup', author: 'Chris Guillebeau'},
     {title: '12 Months To $1 Million', author: 'Ryan Daniel Moran'},
     {title: 'Blitzscaling', author: 'Reid Hoffman and Chris Yeh'},
+    {title: 'No Rules Rules', author: 'Reed Hastings and Erin Meyer'},
   ]  
 
   const [scrollPosition, setScrollPosition] = useState(0)
