@@ -21,6 +21,8 @@ const SkillsSection = () => {
     {title: '12 Months To $1 Million', author: 'Ryan Daniel Moran'},
     {title: 'Blitzscaling', author: 'Reid Hoffman and Chris Yeh'},
     {title: 'No Rules Rules', author: 'Reed Hastings and Erin Meyer'},
+    {title: 'The Hard Thing About Hard Things', author: 'Ben Horowitz'},
+    {title: 'The 48 Laws of Power', author: 'Robert Greene'},
   ]  
 
   const [scrollPosition, setScrollPosition] = useState(0)
