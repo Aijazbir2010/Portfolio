@@ -12,19 +12,6 @@ const Footer = () => {
                 </div> 
             </div>
             <div className="flex flex-col items-center gap-5">
-                <span className={`text-3xl md:text-4xl font-bold text-white`}>Contact Details</span>
-                <div className="flex flex-col items-center gap-2">
-                    <div className="flex flex-row gap-2 items-center ">
-                        <i className="fa-solid fa-lg fa-phone text-[#A6A6A6]"></i>
-                        <span className="font-bold text-[#A6A6A6] hover-text-gradient">+91-62845-23190</span>
-                    </div>
-                    <div className="flex flex-row gap-2 items-center">
-                        <i className="fa-solid fa-lg fa-envelope text-[#A6A6A6]"></i>
-                        <span className="font-bold text-[#A6A6A6] hover-text-gradient">funaijazbirs@gmail.com</span>
-                    </div>   
-                </div> 
-            </div>
-            <div className="flex flex-col items-center gap-5">
                 <span className={`text-3xl md:text-4xl font-bold text-white`}>Social Media</span>
                 <div className="flex flex-col items-center gap-2">
                     <a href={"https://www.instagram.com/aijazbir_2010/"} target={"_blank"} rel={"noopener noreferrer"} className="flex flex-row gap-2 items-center">
