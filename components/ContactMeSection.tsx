@@ -23,13 +23,11 @@ const ContactMeSection = () => {
   const [isSendingEmail, setIsSendingEmail] = useState(false)
 
   const instagramButtonRef = useRef<HTMLAnchorElement>(null)  
-  const whatsappButtonRef = useRef<HTMLAnchorElement>(null)
   const orSeparatorDivRef = useRef<HTMLDivElement>(null)
   const formRef = useRef<HTMLFormElement>(null)  
   const textRef = useRef<HTMLDivElement>(null)  
 
   const isInstagramButtonInView = useInView(instagramButtonRef, { once: true })
-  const isWhatsappButtonInView = useInView(whatsappButtonRef, { once: true })
   const isOrSeparatorDivInView = useInView(orSeparatorDivRef, { once: true })
   const isFormInView = useInView(formRef, { once: true })
   const isTextInView = useInView(textRef, { once: true })  
@@ -87,10 +85,6 @@ const ContactMeSection = () => {
               <a ref={instagramButtonRef} href="https://www.instagram.com/aijazbir_2010/" target="_blank" rel="noopener noreferrer" className={`instagram-btn bg-[#0F171B] w-[340px] md:w-[400px] h-16 rounded-3xl flex flex-row items-center gap-4 px-6 hover:scale-95 ${isInstagramButtonInView ? 'translate-x-0 opacity-100' : 'translate-x-[-60px] opacity-0'} transition-all duration-[1500ms] hover:duration-300`}>
                   <img src="/logos/instagram.svg" alt="Instagram" className="w-10 h-10"/>
                   <span className="text-white text-lg">Instagram</span>
-              </a>
-              <a ref={whatsappButtonRef} href="https://wa.me/916284523190" target="_blank" rel="noopener noreferrer" className={`whatsapp-btn bg-[#0F171B] w-[340px] md:w-[400px] h-16 rounded-3xl flex flex-row items-center gap-4 px-6 hover:scale-95 ${isWhatsappButtonInView ? 'translate-x-0 opacity-100' : 'translate-x-[60px] opacity-0'} transition-all duration-[1500ms] hover:duration-300`}>
-                  <i className="fa-brands fa-whatsapp text-[#25D366] text-4xl"></i>
-                  <span className="text-white text-lg">Chat on Whatsapp</span>
               </a>
 
               <div ref={orSeparatorDivRef} className={`w-[340px] md:w-[400px] flex flex-row gap-2 justify-center items-center ${isOrSeparatorDivInView ? 'scale-100 opacity-100' : 'scale-50 opacity-0'} transition-all duration-[1000ms]`}>
