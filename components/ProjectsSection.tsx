@@ -32,7 +32,7 @@ const ProjectsSection = () => {
                     </div>
 
                     <div className="px-6 md:px-4 mt-5">
-                        <span className="text-red-600 text-lg tracking-wide font-bold">Note - This Project Cannot Be Deployed Due To Copyright Issues</span>
+                        <span className="text-red-600 text-lg tracking-wide font-bold">Note - This project will be deployed soon.</span>
                     </div>
 
                     <div className="flex flex-row w-full justify-around absolute bottom-5 md:bottom-10">
@@ -89,7 +89,7 @@ const ProjectsSection = () => {
                     </div>
 
                     <div className="px-6 md:px-4 mt-5">
-                        <span className="text-red-600 text-lg tracking-wide font-bold">Note - This Project Will Be Deployed In Few Days</span>
+                        <span className="text-red-600 text-lg tracking-wide font-bold">Note - This project will be deployed soon.</span>
                     </div>
 
                     <div className="flex flex-row w-full justify-around absolute bottom-5 md:bottom-10">
