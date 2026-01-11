@@ -22,10 +22,6 @@ const AboutSection = () => {
                 <div className="text-center md:text-right">
                     <span className="text-white text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">I’m Aijazbir Brar, a 15-year-old self-taught software engineer and young entrepreneur, currently serving as the Co-Founder & CEO of <a className="font-bold" href="https://softpeo.com" target="_blank" rel="noopener noreferer">SoftPeo</a>. I started my journey not with formal training or privilege, but with obsession, discipline, and an unstoppable curiosity for how technology really works. Over the years, I’ve built real production systems, shipped scalable products, led technical decisions, and learned how to turn raw ideas into structured, high-impact solutions. At this age, while most are still exploring possibilities, I’m already operating inside real business pressure, real users, and real responsibility — learning leadership, execution, and innovation the hard way, every single day.</span>
                 </div>
-
-                <div className="text-center md:text-right">
-                    <span className="text-white text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">SoftPeo is an AI startup with a bold mission: to make artificial intelligence and advanced technology accessible, safe, and affordable for everyone. We are not building for hype — we are building for impact. Our goal is to create groundbreaking innovations that don’t just add convenience, but reshape how people live, work, create, and grow in the future. At SoftPeo, we believe that powerful technology should not be locked behind high costs or complexity. We are focused on designing products that are intelligent, human-centered, and built for scale — with a long-term vision of shaping the global tech ecosystem, not just participating in it. <a className="font-bold" href="https://softpeo.com" target="_blank" rel="noopener noreferer">Learn More</a>.</span>
-                </div>
             </div>
         </div>
 
@@ -33,11 +29,7 @@ const AboutSection = () => {
             
             <div className={`flex flex-col gap-10 w-[90%] md:w-[70%] mt-10 md:mt-0 justify-center relative ${isSectionTwoInView ? 'translate-y-0 translate-x-0 opacity-100' : 'translate-y-[100px] translate-x-0 md:translate-y-0 md:translate-x-[-150px] opacity-0'} transition-all duration-[1500ms]`}>
                 <div className="text-center md:text-left">
-                    <span className="text-white text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">I envision a future where technology becomes a bridge to solving real-world problems, empowering people, and creating lasting value. My ultimate goal is to become an <span className="font-black text-gradient">Entrepreneur</span>, founding startups that make a meaningful impact on people&apos;s lives.</span>
-                </div>
-
-                <div className="text-center md:text-left">
-                    <span className="text-white text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">I believe in innovation that serves a purpose—whether it&apos;s simplifying daily tasks, addressing global challenges, or creating tools that inspire creativity.</span>
+                    <span className="text-white text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">SoftPeo is an AI startup with a bold mission: to make artificial intelligence and advanced technology accessible, safe, and affordable for everyone. We are not building for hype — we are building for impact. Our goal is to create groundbreaking innovations that don’t just add convenience, but reshape how people live, work, create, and grow in the future. At SoftPeo, we believe that powerful technology should not be locked behind high costs or complexity. We are focused on designing products that are intelligent, human-centered, and built for scale — with a long-term vision of shaping the global tech ecosystem, not just participating in it.<a className="font-bold" href="https://softpeo.com" target="_blank" rel="noopener noreferer">Learn More</a></span>
                 </div>
 
                 <div className="glow absolute w-60 h-72 xl:h-96 opacity-10 bg-[#00A8E8] z-[-1] top-32 left-[-220px] md:top-0 md:left-[-60px]"></div>
