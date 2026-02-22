@@ -23,6 +23,7 @@ const SkillsSection = () => {
     {title: 'No Rules Rules', author: 'Reed Hastings and Erin Meyer'},
     {title: 'The Hard Thing About Hard Things', author: 'Ben Horowitz'},
     {title: 'The 48 Laws of Power', author: 'Robert Greene'},
+    {title: 'The Laws of Human Nature', author: 'Robert Greene'},
   ]  
 
   const [scrollPosition, setScrollPosition] = useState(0)
